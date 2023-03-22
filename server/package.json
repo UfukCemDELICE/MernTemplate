@@ -1,0 +1,34 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server side of mern stack template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UfukCemDELICE/MernTemplate.git"
+  },
+  "keywords": [
+    "mern",
+    "node",
+    "express"
+  ],
+  "author": "Ufuk Cem Delice",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UfukCemDELICE/MernTemplate/issues"
+  },
+  "homepage": "https://github.com/UfukCemDELICE/MernTemplate#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.2",
+    "nodemon": "^2.0.22"
+  }
+}
